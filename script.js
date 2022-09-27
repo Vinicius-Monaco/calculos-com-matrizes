@@ -13,7 +13,7 @@ document.getElementById("btn-define").addEventListener("click", function definir
     var quebraLinha = document.createElement("br");
     if(colunaMatriz1 != colunaMatriz2 || linhaMatriz1 != linhaMatriz2) {
         alert("AS MATRIZES PRECISAM SER DE MESMO TAMANHO");
-        this.close();
+        this.close();   // Nem sei se isso existe, mas o código parou de executar, então deixei :)
     }
 
     for (var aux1 = 1 ; aux1 <= linhaMatriz1 ; aux1++)
@@ -21,7 +21,7 @@ document.getElementById("btn-define").addEventListener("click", function definir
         for (var aux2 = 1 ; aux2 <= colunaMatriz1 ; aux2++)
         {
             var input = document.createElement("input");
-            input.setAttribute("id", "1c-"+aux2+"l-"+aux1); // MANO EU SOU UM GENIO PUTAMERDA
+            input.setAttribute("id", "1c-"+aux2+"l-"+aux1); //  MANO EU SOU UM GENIO PUTAMERDA
             document.getElementById("a").appendChild(input);
         }
         var quebraLinha = document.createElement("br");
