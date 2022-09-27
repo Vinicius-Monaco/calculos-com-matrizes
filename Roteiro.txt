@@ -1,0 +1,31 @@
+Projeto Matrizes_Calculos - Roteiro;
+
+Operações:
+
+- Soma e subtração de matrizes;
+
+- Multiplicação de matrizes;
+
+- Calcular a matriz inversa;
+
+- Calcular o determinante de uma matriz;
+
+-----------------------xxx-----------------------
+
+O que vamos utilizar?
+
+- HTML
+
+- JavaScript
+
+- CSS
+
+- Bootstrap
+
+
+-----------------------xxx-----------------------
+
+
+Só falta programar a parte da soma e subtração;
+
+Backup das tabelas:
