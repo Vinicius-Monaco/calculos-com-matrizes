@@ -64,7 +64,7 @@ document.getElementById("btn-soma").addEventListener("click", function somar() {
         for (var aux2 = 1 ; aux2 <= colunaMatriz3 ; aux2++)
         {
             var span = document.createElement("span");
-            span.textContent = parseInt(document.getElementById("1c-"+aux2+"l-"+aux1).value) + parseInt(document.getElementById("1c-"+aux2+"l-"+aux1).value);
+            span.textContent = parseInt(document.getElementById("1c-"+aux2+"l-"+aux1).value) + parseInt(document.getElementById("2c-"+aux2+"l-"+aux1).value);
 
             span.setAttribute("id", "3c-"+aux2+"l-"+aux1); //  MANO EU SOU UM GENIO PUTAMERDA
             document.getElementById("c").appendChild(span);
