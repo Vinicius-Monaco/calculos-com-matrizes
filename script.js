@@ -15,7 +15,7 @@ document.getElementById("btn-define").addEventListener("click", function definir
 
     if((colunaMatriz1 != colunaMatriz2 || linhaMatriz1 != linhaMatriz2) || (colunaMatriz1 <= 0 || colunaMatriz2 <=0 || linhaMatriz1 <= 0 || linhaMatriz2 <= 0)) {
         alert("MATRIZES DIFERENTES OU ALGUM CAMPO COM NÚMERO NULO OU NEGATIVO!!");
-        this.close();  // Nem sei se isso existe, mas o código parou de executar, então deixei :D
+        window.refresh();  // Nem sei se isso existe, mas o código parou de executar, então deixei :D
     }
 
     for (var aux1 = 1 ; aux1 <= linhaMatriz1 ; aux1++)
